@@ -1,0 +1,67 @@
+body {
+	font: bold 11px/1.5em Verdana; color:#FFFFFF;
+	background-color: #666;
+	}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */	
+  
+  
+h2 {text-align:center; text-decoration:underline}  
+  
+  
+#continut{ width:1000px; margin-left: auto; margin-right: auto; height: auto; background-color: #333; font: Verdana, Geneva, sans-serif; color: #FFF; text-align: left; border: 3px;  border-style: groove; }
+#interior {float:left;text-align:left;} 
+#harta { width:885px; margin-left: auto; margin-right: auto;}
+#header {background-color:#FFFFFF; width:1000px; height: 300px; margin-left: auto; margin-right: auto;}
+#footer {width:1000px;height: 30px; margin-left:auto;margin-right:auto; background:#eee; text-align:center; font: Verdana, Geneva, sans-serif; color: #000; border:solid #ccc 3px; border-top:0; background: url('menu.png') 0px -30px repeat-x;}
+#descriere{float:left;width:800px;}
+#sidemenu {float:left;width:200px;}
+#continut #interior #descriere p {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#prelungire {height: 1000px; background-color:#000000}
+
+
+.descriere {text-align:left}
+.descriere a:hover {text-decoration:underline; color:rgb(0,255,204);}
+.descriere a.active{background:none; color:rgb(255,255,255);}
+.descriere a.active:hover {text-decoration:none;}
+.descriere a{font:12px Arial, Helvetica, sans-serif; color: #069; text-decoration:none;}
+
+
+.lista { min-height:700px; background-color: #000;}
+.lista ul{margin:0;padding-top:10px;}
+.lista ul li a:hover {text-decoration:underline; color:rgb(0,255,204);}
+.lista ul li a.active{background:none; color:rgb(255,255,255);}
+.lista ul li a.active:hover {text-decoration:none;}
+.lista ul li{list-style:none;}
+.lista ul li a{font:12px Arial, Helvetica, sans-serif; color:rgb(5,113,237); text-decoration:none; line-height:30px;}
+	
+.menu{position:relative; height:20px; width:100%; margin-left:auto; margin-right:auto; }
+.menu{text-align:center;}
+.menu ul{position:relative; margin:0 5px 0 5px; padding:0; height:30px; background: url('menu.png') 0px -30px repeat-x; }
+.menu ul li{padding:0; margin:0; list-style:none; float:left; height:30px display:inline;}
+.menu ul li a{font:12px Arial, Helvetica, sans-serif; color:rgb(5,113,237); text-decoration:none; line-height:30px; display:block; background:url('menu.png') 100% -60px no-repeat; padding:0 17px 0 15px; outline:none;}
+.menu ul li a:hover {text-decoration:underline; color:rgb(0,255,204);}
+.menu ul li a.active{background:none; color:rgb(255,255,255);}
+.menu ul li a.active:hover {text-decoration:none;}
+.menu .left{position:absolute; top:0px; left:0px; width:10px; height:30px; display:block; z-index:1; background:url('menu.png') 0% 0px no-repeat;}
+.menu .right{position:absolute; top:0px; right:0px; width:10px; height:30px; display:block; z-index:1; background:url('menu.png') 100% -90px no-repeat; }
+
+.imag img {margin: 14px 20px 5px 0; padding: 1px; float: left; border: 1px solid #E8E8E8;}
+
+.linkuri a:hover {text-decoration:underline; color:rgb(0,255,204);}
+.linkuri a.active{background:none; color:rgb(255,255,255);}
+.linkuri a.active:hover {text-decoration:none;}
+.linkuri a{font:12px Arial, Helvetica, sans-serif; color:rgb(5,113,237); text-decoration:none; line-height:30px;}
